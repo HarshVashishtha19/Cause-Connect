@@ -34,7 +34,7 @@ app.use("/", transactionRoute);
 app.use("/", fundRoute);
 
 // Start the server
-app.listen(PORT, () => {
+app.listen(PORT, "0.0.0.0", () => {
   console.log("listening at port: " + PORT);
   console.log("http://localhost:" + PORT);
   console.log(process.env.FRONTEND_URL);
