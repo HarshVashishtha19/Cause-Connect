@@ -24,7 +24,7 @@ import CampaignUpdates from "./pages/raiser/CampaignUpdates";
 import WalletPage from "./pages/raiser/Wallet";
 
 export const backendDomain =
-  import.meta.env.VITE_BACK_END || `http://localhost:4000`;
+  import.meta.env.VITE_BACK_END;
 
 function App() {
   return (
